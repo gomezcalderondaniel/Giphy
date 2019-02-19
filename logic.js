@@ -87,13 +87,9 @@ function displayGifs() {
 
             });
         });
-
-
-
-
-
-
-
-
-
 };
+
+
+$("#clearAll").on("click", function clearGiphy() {
+    $("#buttonContainer").empty();
+  });

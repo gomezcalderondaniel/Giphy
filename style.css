@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.jumbotron {
+    background: blue;
+    color: white;
+}
+
+.btn {
+    padding-right: 15px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+img {
+    max-width: 400px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.box {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#main {
+    top: 50px;
+}
+
+.giphy {
+    background: red;
+}

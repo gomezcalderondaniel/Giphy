@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
+
+
+
+
 body {
     font-family: 'Righteous', cursive;
 }
@@ -9,8 +13,29 @@ h3 {
 }
 
 .jumbotron {
-    background: blue;
     color: white;
+    background: linear-gradient(270deg, #dced26, #e76f6c);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 12s ease infinite;
+-moz-animation: AnimationName 12s ease infinite;
+animation: AnimationName 12s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 61%}
+    50%{background-position:100% 40%}
+    100%{background-position:0% 61%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 61%}
+    50%{background-position:100% 40%}
+    100%{background-position:0% 61%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 61%}
+    50%{background-position:100% 40%}
+    100%{background-position:0% 61%}
+}
 }
 
 .btn {
@@ -37,5 +62,26 @@ img {
 }
 
 .giphy {
-    background: red;
+    background: linear-gradient(270deg, #dced26, #e76f6c);
+    background-size: 400% 400%;
+    
+    -webkit-animation: AnimationName 12s ease infinite;
+    -moz-animation: AnimationName 12s ease infinite;
+    animation: AnimationName 12s ease infinite;
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 61%}
+        50%{background-position:100% 40%}
+        100%{background-position:0% 61%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 61%}
+        50%{background-position:100% 40%}
+        100%{background-position:0% 61%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:0% 61%}
+        50%{background-position:100% 40%}
+        100%{background-position:0% 61%}
+    }
 }
